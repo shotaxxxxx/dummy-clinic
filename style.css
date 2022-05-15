@@ -1,4 +1,4 @@
-/* 
+/*
 theme Name: みなみ歯科クリニック
 Author: Shota Kishimoto
 Description: デイトラ卒業課題
@@ -2674,7 +2674,6 @@ body {
 
 @media screen and (max-width: 767px) {
   .section-top-img {
-    max-width: 335px;
     margin: 0 auto;
     height: 188px;
     background-image: url(./img/about-page/page-about_top-sp.png);
@@ -5720,7 +5719,7 @@ body {
   left: 0;
   border: 2px solid #1391E6;
 } */
-/* 
+/*
 .form__radio-label::after {
   content: '';
   position: absolute;
