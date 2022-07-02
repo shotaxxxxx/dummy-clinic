@@ -1,4 +1,4 @@
-<?php 
+<?php
 add_action('init', function() {
     add_theme_support('post-thumbnails');
 
@@ -42,7 +42,7 @@ function my_script_init() {
     if ( is_archive('archive-staffs')) { // 投稿ページであるか判断
         wp_enqueue_script('staff-js', get_template_directory_uri() . '/js/staff.js', array( 'jquery'), '1.0.0', true);
     }
-    
+
 }
 add_action('wp_enqueue_scripts', 'my_script_init');
 
@@ -79,4 +79,3 @@ function add_thanks_page() {
 add_action( 'wp_footer', 'add_thanks_page' );
 
 // jQueryの読み込み
-
